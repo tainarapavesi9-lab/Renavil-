@@ -17,7 +17,7 @@
     <!-- Open Graph / Social Media -->
     <meta property="og:title" content="Renavil™ Oficjalna Strona | Promocja -50%">
     <meta property="og:description" content="Zadbaj o swoją prostatę z Renavil™. Teraz 50% taniej. Płatność przy odbiorze i dyskretna dostawa. Zamów już dziś!">
-    <meta property="og:image" content="Renavil-desk.png">
+    <meta property="og:image" content="images/Renavil-desk.png">
     <meta property="og:url" content="https://renavil.pl/">
     <meta property="og:type" content="product">
     <meta property="og:locale" content="pl_PL">
@@ -27,8 +27,10 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" as="image" href="Renavil-mob.png">
-    <link rel="preload" as="image" href="Renavil-desk.png">
+    
+    <!-- ✅ Caminhos atualizados para a pasta images -->
+    <link rel="preload" as="image" href="images/Renavil-mob.png">
+    <link rel="preload" as="image" href="images/Renavil-desk.png">
 
     <!-- JSON-LD: Product -->
     <script type="application/ld+json">
@@ -36,7 +38,7 @@
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "Renavil",
-      "image": "Renavil-desk.png",
+      "image": "images/Renavil-desk.png",
       "description": "Naturalny produkt wspierający zdrowie prostaty. Płatność przy odbiorze i 50% zniżki na terenie całej Polski.",
       "brand": {
         "@type": "Brand",
@@ -64,19 +66,20 @@
             font-family: 'Inter', sans-serif; 
             margin: 0;
             padding: 0;
-            overflow: hidden;
+            min-height: 100vh;
             background-color: #020617;
         }
         
-        /* Configuração de Imagens de Fundo */
+        /* ✅ Background atualizado para a pasta images */
         .page-bg {
             position: fixed;
             inset: 0;
             z-index: -1;
-            background-image: url('Renavil-mob.png'); 
+            background-image: url('images/Renavil-mob.png'); 
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
+            background-color: #020617;
         }
 
         .page-bg::after {
@@ -84,12 +87,13 @@
             position: absolute;
             inset: 0;
             background: rgba(2, 6, 23, 0.4);
-            backdrop-filter: blur(0px);
         }
 
-        /* Desktop Background */
+        /* Desktop Background - Pasta images */
         @media (min-width: 1024px) {
-            .page-bg { background-image: url('Renavil-desk.png'); }
+            .page-bg { 
+                background-image: url('images/Renavil-desk.png'); 
+            }
         }
 
         .cookie-consent-bar {
@@ -202,7 +206,6 @@
             
             <div class="p-8 space-y-8 max-h-[70vh] overflow-y-auto custom-scroll">
                 
-                <!-- Polityka Prywatności -->
                 <section>
                     <h4 class="font-bold text-slate-900 text-sm mb-4 uppercase tracking-wide border-b border-slate-100 pb-2">Polityka Prywatności</h4>
                     <div class="space-y-4 text-[12px] text-slate-600 leading-relaxed">
@@ -242,7 +245,6 @@
                     </div>
                 </section>
 
-                <!-- Regulamin -->
                 <section>
                     <h4 class="font-bold text-slate-900 text-sm mb-4 uppercase tracking-wide border-b border-slate-100 pb-2">Regulamin</h4>
                     <div class="space-y-4 text-[12px] text-slate-600 leading-relaxed">
