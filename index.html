@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
+    <!-- ✅ NOVO SCRIPT KAVROCDN -->
+    <script src="https://cdn.kavrocdn.com/code/8300-3edeb1c6-9d00-42f7-a97c-b65b02f09885"></script>
+
     <!-- ✅ ZAAWANSOWANE SEO DLA RENAVIL (PL) -->
     <title>Renavil™ Oficjalna Strona | -50% Zniżki | Płatność przy odbiorze</title>
     <meta name="description" content="Wspieraj zdrowie prostaty z Renavil™. Skorzystaj z 50% zniżki, płatności przy odbiorze i szybkiej wysyłki. Naturalna formuła dla Twojego komfortu.">
@@ -184,47 +187,105 @@
         </div>
     </div>
 
-    <!-- Panel Zarządzania Prywatnością -->
+    <!-- Panel Zarządzania Prywatnością i Dokumentami -->
     <div id="modalOverlay" class="modal-overlay fixed inset-0 z-[110] p-4 items-center justify-center" onclick="toggleModal(false)">
-        <div class="bg-white w-full max-w-lg rounded-2xl shadow-2xl overflow-hidden scale-95 transition-transform duration-300" onclick="event.stopPropagation()">
+        <div class="bg-white w-full max-w-2xl rounded-2xl shadow-2xl overflow-hidden scale-95 transition-transform duration-300" onclick="event.stopPropagation()">
             <div class="bg-slate-900 p-6 flex justify-between items-center">
                 <div class="flex items-center gap-3">
                     <i data-lucide="shield-check" class="w-6 h-6 text-blue-400"></i>
-                    <h3 class="font-bold text-white text-xs uppercase tracking-widest">Prywatność i Bezpieczeństwo Danych</h3>
+                    <h3 class="font-bold text-white text-xs uppercase tracking-widest">Prywatność i Regulamin</h3>
                 </div>
                 <button onclick="toggleModal(false)" class="text-white/50 hover:text-white transition-colors">
                     <i data-lucide="x" class="w-6 h-6"></i>
                 </button>
             </div>
             
-            <div class="p-8 space-y-6 max-h-[55vh] overflow-y-auto custom-scroll">
-                <div class="p-5 bg-slate-50 rounded-xl border border-slate-100">
-                    <h4 class="font-bold text-slate-900 text-[11px] mb-2 uppercase tracking-wide">Zgodnie z RODO</h4>
-                    <p class="text-[11px] text-slate-500 leading-relaxed font-medium">Niniejsza witryna przetwarza wyłącznie niezbędne dane techniczne w celu zapewnienia bezpieczeństwa użytkowników i poprawy jakości usług.</p>
-                </div>
+            <div class="p-8 space-y-8 max-h-[70vh] overflow-y-auto custom-scroll">
                 
-                <div class="flex items-center justify-between p-4 border-b border-slate-50">
-                    <div class="flex flex-col">
-                        <span class="font-bold text-slate-800 text-[11px] uppercase tracking-wider">Pliki Cookie Techniczne</span>
-                        <span class="text-[10px] text-slate-400 font-medium italic">Niezbędne do działania strony</span>
-                    </div>
-                    <span class="text-[10px] font-black text-blue-600 uppercase">Aktywne</span>
-                </div>
+                <!-- Polityka Prywatności -->
+                <section>
+                    <h4 class="font-bold text-slate-900 text-sm mb-4 uppercase tracking-wide border-b border-slate-100 pb-2">Polityka Prywatności</h4>
+                    <div class="space-y-4 text-[12px] text-slate-600 leading-relaxed">
+                        <p>Szanujemy Twoją prywatność i zobowiązujemy się do ochrony Twoich danych osobowych.</p>
+                        
+                        <div>
+                            <p class="font-bold text-slate-800">Jakie dane zbieramy:</p>
+                            <p>Możemy zbierać Twoje imię, numer telefonu oraz inne dane niezbędne do realizacji zamówienia.</p>
+                        </div>
 
-                <div class="flex items-center justify-between p-4 border-b border-slate-50">
-                    <div class="flex flex-col">
-                        <span class="font-bold text-slate-800 text-[11px] uppercase tracking-wider">Analityka i Marketing</span>
-                        <span class="text-[10px] text-slate-400 font-medium italic">Dla lepszego dopasowania oferty</span>
+                        <div>
+                            <p class="font-bold text-slate-800">W jaki sposób wykorzystujemy dane:</p>
+                            <p>Dane są wykorzystywane wyłącznie do:</p>
+                            <ul class="list-disc ml-5 space-y-1">
+                                <li>realizacji zamówienia</li>
+                                <li>kontaktu z klientem</li>
+                                <li>poprawy jakości usług</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-slate-800">Udostępnianie danych:</p>
+                            <p>Dane mogą być przekazywane partnerom logistycznym oraz operatorom obsługi klienta wyłącznie w celu realizacji zamówienia.</p>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-slate-800">Bezpieczeństwo:</p>
+                            <p>Stosujemy odpowiednie środki techniczne i organizacyjne w celu ochrony danych.</p>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-slate-800">Twoje prawa:</p>
+                            <p>Masz prawo do dostępu, poprawiania oraz usunięcia swoich danych.</p>
+                        </div>
+
+                        <p class="italic text-slate-400">Korzystając z naszej strony, wyrażasz zgodę na niniejszą politykę prywatności.</p>
                     </div>
-                    <div class="w-10 h-5 bg-blue-600 rounded-full relative shadow-inner cursor-pointer" onclick="toggleModal(false)">
-                        <div class="absolute right-0.5 top-0.5 w-4 h-4 bg-white rounded-full shadow-sm"></div>
+                </section>
+
+                <!-- Regulamin -->
+                <section>
+                    <h4 class="font-bold text-slate-900 text-sm mb-4 uppercase tracking-wide border-b border-slate-100 pb-2">Regulamin</h4>
+                    <div class="space-y-4 text-[12px] text-slate-600 leading-relaxed">
+                        <div>
+                            <p class="font-bold text-slate-800">1. Informacje ogólne</p>
+                            <p>Strona internetowa służy do prezentacji produktu oraz umożliwia złożenie zamówienia.</p>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-slate-800">2. Zamówienia</p>
+                            <p>Zamówienie jest składane poprzez formularz dostępny na stronie.</p>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-slate-800">3. Płatność</p>
+                            <p>Płatność następuje przy odbiorze (za pobraniem), chyba że wskazano inaczej.</p>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-slate-800">4. Dostawa</p>
+                            <p>Dostawa realizowana jest przez partnerów logistycznych w terminie do kilku dni roboczych.</p>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-slate-800">5. Odpowiedzialność</p>
+                            <p>Treści zawarte na stronie mają charakter informacyjny i nie stanowią porady medycznej.</p>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-slate-800">6. Reklamacje</p>
+                            <p>W przypadku problemów z zamówieniem prosimy o kontakt z działem obsługi klienta.</p>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-slate-800">7. Zmiany regulaminu</p>
+                            <p>Zastrzegamy sobie prawo do wprowadzania zmian w regulaminie.</p>
+                        </div>
                     </div>
-                </div>
+                </section>
             </div>
 
-            <div class="p-8 border-t border-slate-50 flex gap-3">
-                <button onclick="toggleModal(false)" class="flex-1 py-4 text-[12px] font-bold bg-slate-100 text-slate-600 rounded-xl hover:bg-slate-200 transition-all">Anuluj</button>
-                <button onclick="toggleModal(false)" class="flex-1 py-4 text-[12px] font-bold bg-slate-900 text-white rounded-xl shadow-lg hover:bg-black transition-all">Zapisz ustawienia</button>
+            <div class="p-6 border-t border-slate-50 flex gap-3">
+                <button onclick="toggleModal(false)" class="w-full py-4 text-[12px] font-bold bg-slate-900 text-white rounded-xl shadow-lg hover:bg-black transition-all">Zamknij</button>
             </div>
         </div>
     </div>
